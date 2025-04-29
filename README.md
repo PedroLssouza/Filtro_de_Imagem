@@ -25,27 +25,21 @@ Este projeto é útil como **material didático** para estudantes de engenharia 
 
 ## 🚀 Como começar a usar o projeto
 
-1. **Clone este repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
-   ```
-
-2. **Prepare o ambiente**:
+1. **Prepare o ambiente**:
    - Um compilador C (como GCC)
    - A biblioteca `stb_image.h` e `stb_image_write.h` (já incluídas)
 
-3. **Compile o código**:
+2. **Compile o código**:
    ```bash
    gcc nome_arquivo.c -o processamento -lm
    ```
 
-4. **Edite o caminho da imagem** dentro do código:
+3. **Edite o caminho da imagem** dentro do código:
    ```c
    char inputFile[100] = "C:\caminho\para\sua\imagem.jpg";
    ```
 
-5. **Execute o programa**:
+4. **Execute o programa**:
    ```bash
    ./processamento
    ```
